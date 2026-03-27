@@ -11,10 +11,10 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-st.header("My First Chatbot")
+st.header("Ask question on your document here")
 
 with st.sidebar:
-    st.title("Your Documents")
+    st.title("Upload your document here")
     file = st.file_uploader("Upload a PDF file and start asking questions", type="pdf")
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
