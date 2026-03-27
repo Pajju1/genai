@@ -96,3 +96,6 @@ if file is not None:
     if user_question:
         response = chain.invoke(user_question)
         st.write(response)
+
+if __name__ == "__main__":
+    pass
