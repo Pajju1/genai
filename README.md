@@ -14,6 +14,7 @@ source .venv/bin/activate
 Run the file in terminal to get the output of path on how streamlit has saved your file. Accordingly run it.
 Example - 
 python3 ragchatbot.py 
+
 streamlit run ragchatbot.py --server.port 8501 --server.address 0.0.0.0
 
 Dont forget to add your own OPENAI_API_KEY in ".env" file. An example is mentioned in ".env.example file". Since it is a secret-key, thats the only thing this repo expects you to input inside the code
