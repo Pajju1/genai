@@ -1,6 +1,7 @@
 # GENAI
 This is a GENAI tool where you can input your file and ask questions for which the tool will answer right.
 Use this website in your browser - https://rag-doc-ai.onrender.com/
+(Powered by a free domain—so if it takes a moment, just know it’s thinking very deeply about your request :D)
 
 If you want to replicate this follow these steps:
 
