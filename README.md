@@ -6,6 +6,8 @@ If you want to replicate this follow these steps:
 
 You can create this tool in your local's virtual env as well.
 python3 -m venv .venv
+
+
 source .venv/bin/activate
 
 Run the file in terminal to get the output of path on how streamlit has saved your file. Accordingly run it.
