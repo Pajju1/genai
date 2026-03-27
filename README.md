@@ -1,5 +1,6 @@
-# genai
+# GENAI
 This is a GENAI tool where you can input your file and ask questions for which the tool will answer right.
+Use this website in your browser - https://rag-doc-ai.onrender.com/
 
 If you want to replicate this follow these steps:
 
@@ -18,3 +19,12 @@ Dont forget to add your own OPENAI_API_KEY in ".env" file. An example is mention
 
 Architecture:
 ![alt text](image.png)
+
+Domain used from dashboard.render.com
+pdfplumber used to extract raw text from uploaded PDFs
+For embedding, Open AI's model text-embedding-3-small is used
+Stored embedding with Vector Database
+MMR (Max Marginal Relevance) for retrieval
+For LLM used gpt-4o-mini via LangChain’s ChatOpenAI to generate structured, context-aware answers
+Built the UI using Streamlit for quick prototyping and deployment
+Designed a custom prompt to ensure grounded answers (no hallucination), detailed explanations and clean formatting
