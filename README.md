@@ -22,10 +22,18 @@ Architecture:
 ![alt text](image.png)
 
 Domain used from dashboard.render.com
+
 pdfplumber used to extract raw text from uploaded PDFs
+
 For embedding, Open AI's model text-embedding-3-small is used
+
 Stored embedding with Vector Database
+
 MMR (Max Marginal Relevance) for retrieval
+
 For LLM used gpt-4o-mini via LangChain’s ChatOpenAI to generate structured, context-aware answers
+
 Built the UI using Streamlit for quick prototyping and deployment
+
 Designed a custom prompt to ensure grounded answers (no hallucination), detailed explanations and clean formatting
+
